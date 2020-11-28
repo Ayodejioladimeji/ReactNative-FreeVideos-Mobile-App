@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#060644"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,20 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.layobright.freevideos",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#060644"
+      },
+      "package": "com.layobright.freevideos",
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     }
   }
 }
